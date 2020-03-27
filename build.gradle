@@ -29,4 +29,7 @@ dependencies {
 	compile("org.springframework.boot:spring-boot-starter-data-mongodb")
 	compile group: 'com.github.fakemongo', name: 'fongo', version: '2.1.1'
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	compile 'com.fasterxml.jackson.core:jackson-core:2.9.6'
+	compile 'com.fasterxml.jackson.core:jackson-annotations:2.9.6'
+	compile 'com.fasterxml.jackson.core:jackson-databind:2.9.6'
 }

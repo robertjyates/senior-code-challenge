@@ -1,0 +1,43 @@
+[
+  {
+    "salary" : 160000,
+    "effectiveDate" : "2010-07-19",
+    "employee" : {
+      "employeeId" : "16a596ae-edd3-4847-99fe-c4518e82c86f",
+      "firstName" : "John",
+      "lastName" : "Lennon",
+      "position" : "Development Manager",
+      "department" : "Engineering",
+      "directReports" : [
+        {
+          "employeeId" : "b7839309-3348-463b-a7e3-5de1c168beb3"
+        },
+        {
+          "employeeId": "03aa1462-ffa9-4978-901b-7c001562cf6f"
+        }
+      ]
+    }
+  },
+  {
+    "salary" : 140000,
+    "effectiveDate" : "2011-08-20",
+    "employee" : {
+      "employeeId" : "b7839309-3348-463b-a7e3-5de1c168beb3",
+      "firstName" : "Paul",
+      "lastName" : "McCartney",
+      "position" : "Developer I",
+      "department" : "Engineering"
+    }
+  },
+  {
+    "salary" : 145000,
+    "effectiveDate" : "2017-04-16",
+    "employee" : {
+      "employeeId" : "03aa1462-ffa9-4978-901b-7c001562cf6f",
+      "firstName" : "Ringo",
+      "lastName" : "Starr",
+      "position" : "Developer V",
+      "department" : "Engineering"
+    }
+  }
+]
