@@ -30,13 +30,13 @@ public class CompensationDataBootstrap {
         Compensation[] compensations = null;
 
         try {
-        	compensations = objectMapper.readValue(inputStream, Compensation[].class);
+            compensations = objectMapper.readValue(inputStream, Compensation[].class);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
 
         for (Compensation compensation : compensations) {
-        	compensationRepository.insert(compensation);
+            compensationRepository.insert(compensation);
         }
     }
 }

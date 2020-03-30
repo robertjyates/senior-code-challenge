@@ -66,10 +66,10 @@ public class ReportingStructureServiceImpl implements ReportingStructureService 
         int numOfReports = 0;
         if (employee.getDirectReports() != null) {
             numOfReports += employee.getDirectReports().size();
-   		    for(Employee innerEmployee : employee.getDirectReports()) {
+            for(Employee innerEmployee : employee.getDirectReports()) {
                 ReportingStructure innerReportingStructure = read(innerEmployee.getEmployeeId());
                 numOfReports += innerReportingStructure.getNumberOfReports();
-   	        }
+            }
         }
         return numOfReports;
     }
